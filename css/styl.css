@@ -28,24 +28,33 @@ li a:hover {
 
 aside
 {
-height: 100vh;
 width: 25%;
 float: left;
+
 }
 section
 {
   width: 75%;
   float: right;
-
 }
 article
 {
-margin: 2em;
+margin: 1em;
 text-align: justify;
+background-color: #BADD00;
+padding: 1em;
+}
+
+footer
+{
+background: #BADA55;
+padding: 1em;
+clear: both;
+text-align: center;
 }
 #maria {
   display: block;
-  margin: auto;max-width: 30%;
+  margin: auto;
   max-height: 30%;
   width: 100%;
   opacity: 0.8;
@@ -72,7 +81,7 @@ max-height: 100%;
   text-decoration: none;
   text-transform: uppercase;
   clear:both;
-  background-color: red;
+  background-color: #BADa55;
   padding: 1em;
 
   }
@@ -82,5 +91,5 @@ h2
   	font-family: Satisfy, cursive;
   	font-weight:normal;
   	font-size:3em;
-  	padding-top: 60px;
+  
   }
